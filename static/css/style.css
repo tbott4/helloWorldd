@@ -1,0 +1,31 @@
+p {
+    color: darksalmon;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Style all level two headers purple and specific sized font (25 pixels) */
+h2 {
+    color: rebeccapurple;
+    font-size: 25px;
+}
+/* Style all tables to have an aqua color border */
+table {
+    border-style: solid;
+    border-color: aqua;
+}
+/* Create an ID attribute that can be applied to the new paragraph on my dogs */
+p#special-text {
+    color: blue;
+    font-size: 20px;
+}
+
+p.personal-class {
+    color: green;
+    font-weight: bold;
+}
+
+/* Create new class called logo that contains height and width for img's only */
+img.logo {
+    height: 100px;
+    weight: 100px;
+}
