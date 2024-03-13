@@ -24,6 +24,10 @@ def aboutcss():
 def practice1():
     return render_template('practice1.html')
 
+@app.route('/practice2')
+def practice2():
+    return render_template('practice2.html')
+
 if __name__ == '__main__':
     app.run()
 
