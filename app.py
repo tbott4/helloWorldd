@@ -20,6 +20,10 @@ def about():
 def aboutcss():
     return render_template('about-css.html')
 
+@app.route('/practice1')
+def practice1():
+    return render_template('practice1.html')
+
 if __name__ == '__main__':
     app.run()
 
