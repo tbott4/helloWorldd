@@ -49,10 +49,12 @@ img {
     float: right;
 }
 
-body {
+/* body {
     background-image: url('https://www.spokin.com/wp-content/uploads/2023/02/Spokin-Hero-Images-1200-x-800-3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    background-position: center;
 }
+*/
